@@ -1,0 +1,26 @@
+{
+  "name": "love",
+  "version": "1.0.0",
+  "description": "Css framework for building fast and good looking websites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Code-with-Luca/love.git"
+  },
+  "keywords": [
+    "Css",
+    "framework",
+    "css",
+    "css3",
+    "sass"
+  ],
+  "author": "Code with Luca",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Code-with-Luca/love/issues"
+  },
+  "homepage": "https://github.com/Code-with-Luca/love#readme"
+}
