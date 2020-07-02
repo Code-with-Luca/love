@@ -1,8 +1,6 @@
-# love
+# Love CSS Framework
 
-CSS framework for building fast and good lokking websites.
-
-# Install
+## Install
 
 First you need to have NPM (node package manager). Just install node.js for this at https://nodejs.org/en/.
 
@@ -10,7 +8,9 @@ First you need to have NPM (node package manager). Just install node.js for this
 
 `npm install lovecss --save`
 
-# Description
+## Description
+
+CSS framework for building fast and good lokking websites.
 
 ### What does it do
 
