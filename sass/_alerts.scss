@@ -1,0 +1,38 @@
+// alerts
+
+.alert {
+    margin-left: 10%;
+    width: 85%;
+    padding: 5.5px;
+  
+    color: $text-color;
+  
+    opacity: 0.85;
+    border: 2px solid $text-color;
+    border-radius: 5.5px;
+  }
+  .danger {
+    background-color: $red;
+    border: none;
+    color: $bac-text;
+  }
+  .succes {
+    background-color: $green;
+    border: none;
+    color: $bac-text;
+  }
+  
+  .warning {
+    background-color: $yellow;
+    border: none;
+    color: $text-color;
+  }
+  .primary {
+    background-color: $primary;
+    border: none;
+    color: $bac-text;
+  }
+  
+  .alert:hover {
+    opacity: 0.8;
+  }

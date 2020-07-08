@@ -1,0 +1,35 @@
+// Typography
+
+p {
+  text-align: justify;
+}
+
+h1 {
+  font-weight: lighter;
+  color: $h-color;
+}
+.thin {
+  font-weight: lighter;
+}
+
+.display-1 {
+  font-size: 60px;
+}
+.display-2 {
+  font-size: 50px;
+}
+.display-3 {
+  font-size: 40px;
+}
+
+.red {
+  color: $red;
+}
+.blue {
+  color: $primary;
+}
+
+.lead {
+  font-size: x-large;
+  padding-bottom: 1.5px;
+}

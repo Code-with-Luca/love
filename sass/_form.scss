@@ -1,0 +1,17 @@
+.form-input-inline {
+  label {
+    color: $h-color;
+    padding-right: 10px;
+  }
+
+  input {
+    height: 42px;
+    width: 200px;
+    border: 1.3px solid $primary;
+    border-radius: 3px;
+    color: $text-color;
+    &&:focus {
+      border: 1.3px solid $primary;
+    }
+  }
+}

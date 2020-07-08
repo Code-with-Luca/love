@@ -1,105 +1,18 @@
 //Imports
 
 @import "sass/variables";
+@import "sass/card";
+@import "sass/form";
+@import "sass/table";
+@import "sass/typography";
+@import "sass/container";
+@import "sass/alerts";
+@import "sass/buttons";
+@import "sass/body";
 
-body {
-  font-family: Verdana, Geneva, sans-serif;
-  font-weight: normal;
-  color: $text-color;
-  padding: 4.5px;
-}
 
-// Typography
 
-p {
-  text-align: justify;
-}
 
-h1 {
-  font-weight: lighter;
-  color: $h-color;
-}
 
-.display-1 {
-  font-size: 60px;
-}
-.display-2 {
-  font-size: 50px;
-}
-.display-3 {
-  font-size: 40px;
-}
 
-.red {
-  color: $red;
-}
-.blue {
-  color: $primary;
-}
 
-.lead {
-  font-size: x-large;
-  padding-bottom: 1.5px;
-}
-
-// Containers
-
-.container {
-  margin: 30%;
-  margin-top: 3px;
-  margin-bottom: unset;
-}
-
-// alerts
-
-.alert {
-  margin-left: 10%;
-  width: 85%;
-  padding: 5.5px;
-
-  color: $text-color;
-
-  opacity: 0.85;
-  border: 2px solid $text-color;
-  border-radius: 5.5px;
-}
-.danger {
-  background-color: $red;
-  border: none;
-  color: $bac-text;
-}
-.succes {
-  background-color: $green;
-  border: none;
-  color: $bac-text;
-}
-
-.warning {
-  background-color: $yellow;
-  border: none;
-  color: $text-color;
-}
-.primary {
-  background-color: $primary;
-  border: none;
-  color: $bac-text;
-}
-
-.alert:hover {
-  opacity: 0.8;
-}
-
-// Buttons
-
-.btn {
-  border: none;
-  border-radius: 2.5px;
-  padding: 2px;
-  width: 86px;
-  height: 42px;
-  font-size: 15px;
-}
-
-.btn:hover {
-  opacity: 0.8;
-}

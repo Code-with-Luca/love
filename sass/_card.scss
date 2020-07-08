@@ -1,0 +1,12 @@
+.card {
+  height: 330px;
+  width: 370px;
+  border: 1.5px solid $text-color;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.card > p {
+  padding-right: 20px;
+  padding-left: 20px;
+}

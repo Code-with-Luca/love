@@ -1,7 +1,32 @@
+.card {
+  height: 330px;
+  width: 370px;
+  border: 1.5px solid rgba(97, 96, 96, 0.733);
+  text-align: center;
+  border-radius: 3px;
+}
+
+.card > p {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.form-input-inline label {
+  color: rgba(44, 44, 44, 0.733);
+  padding-right: 10px;
+}
+
+.form-input-inline input {
+  height: 26px;
+  width: 200px;
+  border: 1.3px solid rgba(58, 58, 250, 0.863);
+  border-radius: 3px;
+}
+
 body {
   font-family: Verdana, Geneva, sans-serif;
   font-weight: normal;
-  color: rgba(58, 58, 58, 0.733);
+  color: rgba(97, 96, 96, 0.733);
   padding: 4.5px;
 }
 
@@ -12,6 +37,10 @@ p {
 h1 {
   font-weight: lighter;
   color: rgba(44, 44, 44, 0.733);
+}
+
+.thin {
+  font-weight: lighter;
 }
 
 .display-1 {
@@ -49,9 +78,9 @@ h1 {
   margin-left: 10%;
   width: 85%;
   padding: 5.5px;
-  color: rgba(58, 58, 58, 0.733);
+  color: rgba(97, 96, 96, 0.733);
   opacity: 0.85;
-  border: 2px solid rgba(58, 58, 58, 0.733);
+  border: 2px solid rgba(97, 96, 96, 0.733);
   border-radius: 5.5px;
 }
 
@@ -70,7 +99,7 @@ h1 {
 .warning {
   background-color: rgba(212, 212, 7, 0.753);
   border: none;
-  color: rgba(58, 58, 58, 0.733);
+  color: rgba(97, 96, 96, 0.733);
 }
 
 .primary {
@@ -94,5 +123,9 @@ h1 {
 
 .btn:hover {
   opacity: 0.8;
+}
+
+.fullwidth {
+  width: 90%;
 }
 /*# sourceMappingURL=style.css.map */
