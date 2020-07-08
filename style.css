@@ -1,0 +1,98 @@
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: normal;
+  color: rgba(58, 58, 58, 0.733);
+  padding: 4.5px;
+}
+
+p {
+  text-align: justify;
+}
+
+h1 {
+  font-weight: lighter;
+  color: rgba(44, 44, 44, 0.733);
+}
+
+.display-1 {
+  font-size: 60px;
+}
+
+.display-2 {
+  font-size: 50px;
+}
+
+.display-3 {
+  font-size: 40px;
+}
+
+.red {
+  color: rgba(207, 33, 33, 0.897);
+}
+
+.blue {
+  color: rgba(58, 58, 250, 0.863);
+}
+
+.lead {
+  font-size: x-large;
+  padding-bottom: 1.5px;
+}
+
+.container {
+  margin: 30%;
+  margin-top: 3px;
+  margin-bottom: unset;
+}
+
+.alert {
+  margin-left: 10%;
+  width: 85%;
+  padding: 5.5px;
+  color: rgba(58, 58, 58, 0.733);
+  opacity: 0.85;
+  border: 2px solid rgba(58, 58, 58, 0.733);
+  border-radius: 5.5px;
+}
+
+.danger {
+  background-color: rgba(207, 33, 33, 0.897);
+  border: none;
+  color: rgba(255, 255, 255, 0.876);
+}
+
+.succes {
+  background-color: rgba(20, 167, 20, 0.616);
+  border: none;
+  color: rgba(255, 255, 255, 0.876);
+}
+
+.warning {
+  background-color: rgba(212, 212, 7, 0.753);
+  border: none;
+  color: rgba(58, 58, 58, 0.733);
+}
+
+.primary {
+  background-color: rgba(58, 58, 250, 0.863);
+  border: none;
+  color: rgba(255, 255, 255, 0.876);
+}
+
+.alert:hover {
+  opacity: 0.8;
+}
+
+.btn {
+  border: none;
+  border-radius: 2.5px;
+  padding: 2px;
+  width: 86px;
+  height: 42px;
+  font-size: 15px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+/*# sourceMappingURL=style.css.map */
