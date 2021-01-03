@@ -26,13 +26,16 @@ Love Css doesn't require installation. You can use our cdn link. To use it simpl
 ```
 
 ## Usage
-Our framework provides predifened classes for your styles. By default we have a certain typography and colors. To see all the classes you can use check our code. 📃 **Documentation coming soon !!!!!**
-
 Example of styling a button
 ```html
 <button class="btn primary">Click me!</button>
 
 ```
+
+Our framework provides predifened classes for your styles. By default we have a certain typography and colors. To see all the classes you can use check our code. 📃 **Documentation coming soon !!!!!**
+
+![Button](assets/Capture.png)
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
