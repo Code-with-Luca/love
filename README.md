@@ -1,40 +1,43 @@
-# Love CSS Framework
+# Love Css Framework
 
-## Install
+Love Css is a framework for rapidly developing userinterfaces without having to write a lot of costum css. 
 
-First you need to have NPM (node package manager). Just install node.js for this at https://nodejs.org/en/.
+## Installation
+Love Css doesn't require installation. You can use our cdn link. To use it simply go into your html page and in the head tag paste
+```html
+<link rel="stylesheet" href="https://lovecssframework.netlify.app/style.css">
+```
 
-### With NPM
+### Example
 
-`npm install lovecss --save`
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Html</title>
+    <link rel="stylesheet" href="https://lovecssframework.netlify.app/style.css">
+</head>
+<body>
+    
+</body>
+</html>
+```
 
-### With Github / Git
+## Usage
+Our framework provides predifened classes for your styles. By default we have a certain typography and colors. To see all the classes you can use check our code. 📃 **Documentation coming soon !!!!!**
 
-Install GIT version control at https://git-scm.com/download. Open git bash or terminal. Navigate into your project. Then paste `git clone https://github.com/Code-with-Luca/love.git`. This will clone this reposotory in your folder
+Example of styling a button
+```html
+<button class="btn primary">Click me!</button>
 
-## Getting started
+```
 
-### If used NPM
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Add this file structure to your root folder. You will find the file structure in the folder 'node modules'. After adding it just copy this code in to your html page
-`<link rel="stylesheet" href="love/style.css">`
+Please make sure to update tests as appropriate.
 
-### If used git
-
-just copy this code in to your html page
-`<link rel="stylesheet" href="love/style.css">`
-
-## Description
-
-CSS framework for building fast and good lokking websites.
-
-### What does it do
-
-It helps you develop fast and responsive websites from scratch, without using custom css.
-
-### Features
-
-- Responsive
-- Fast
-- Easy to use
-- Customizeble
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
